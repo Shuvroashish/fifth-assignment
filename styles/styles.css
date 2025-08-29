@@ -271,3 +271,34 @@ body {
   padding: 8px 0;
   border-bottom: 1px solid #eee;
 }
+
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media screen and (max-width: 576px) {
+    .main-container {
+    flex-direction: column;
+  }
+
+  .card-section {
+    grid-template-columns: 1fr;
+  }
+
+  .banner h1 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px){
+     .header-left h2 {
+    font-size: 18px;
+  }
+
+  .banner h1 {
+    font-size: 20px;
+  }
+
+  .banner p {
+    font-size: 12px;
+  }
+}
