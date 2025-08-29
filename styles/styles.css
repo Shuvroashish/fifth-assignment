@@ -181,7 +181,9 @@ body {
   color: #999;
 }
 
-
+.fav-btn:hover {
+  color: red;
+}
 
 .card h3 {
   font-size: 18px;
@@ -237,6 +239,7 @@ body {
   background: #28a745;
   color: white;
 }
+
 
 /* Right side - call history */
 .history-section {
