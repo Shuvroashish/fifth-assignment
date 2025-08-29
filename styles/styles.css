@@ -9,7 +9,7 @@ body {
   align-items: center;
   padding: 12px 20px;
   background: #fff;
-  /* border-bottom: 1px solid #e0e0e0; */
+
 
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .header-left h2 span {
-  color: #0b8457; green highlight
+  color: #0b8457;
 }
 
 .header-right {
@@ -57,7 +57,7 @@ body {
 .heart img {
     width: 18px;
   height: 18px;
-  /* object-fit: contain; */
+
 }
 
 .coin{
@@ -77,7 +77,7 @@ body {
 .coin img {
     width: 18px;
   height: 18px;
-  /* object-fit: contain; */
+
 }
 
 
@@ -109,9 +109,9 @@ body {
 }
 
 .banner-logo {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 12px;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 6px;
 }
 
 .banner h1 {
@@ -172,9 +172,7 @@ body {
   color: #999;
 }
 
-/* .fav-btn:hover { */
-  color: red;
-}
+
 
 .card h3 {
   font-size: 18px;
